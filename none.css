@@ -1,0 +1,404 @@
+.top-header {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: space-evenly
+}
+
+nav ul {
+    /* background-image: linear-gradient(90deg, #0083B0 10%, #00B4Db 90%); */
+    list-style-type: none;
+    width: auto;
+    height: 4em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 5rem;
+    margin-bottom: 0;
+    z-index: 1000;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    /* padding: 15px; */
+    transition: 200ms ease-in;
+}
+
+nav ul li a:hover {
+    color: #111;
+}
+
+.dropdown-toggle {
+    color: #fff;
+}
+
+.dropdown-menu {
+    height: auto;
+    background-color: #035692
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.dropdown-item:hover {
+    color: #0789e6;
+}
+
+.logo-detail a {
+    text-decoration: none;
+    color: #0789e6;
+    font-weight: 500;
+}
+
+.logo-bg {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 10%;
+    width: auto;
+    height: auto;
+    align-items: center;
+    margin-left: 30rem;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    margin: 0 1rem;
+}
+
+.logo-detail {
+    margin-top: 1rem;
+    color: #fff;
+    line-height: .3rem;
+    letter-spacing: 1px;
+}
+
+.logo-detail a p:nth-child(2) {
+    font-size: .8rem
+}
+
+.logo-detail a p:nth-child(1) {
+    font-size: .8rem;
+}
+
+.logo-detail a p:nth-child(3) {
+    font-size: .8rem;
+}
+
+.logo-detail a p:nth-child(5) {
+    font-size: .8rem
+}
+
+
+.flag {
+    left: 30em;
+    width: auto;
+    display: flex;
+    position: relative;
+    color: #0789e6;
+    justify-content: center;
+    height: 5rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.recent-notice {
+    display: flex;
+    width: 80%;
+    margin: .5rem auto;
+
+}
+
+.recent-notice p {
+    background-color: #035692;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 0 .5rem;
+    color: #fff;
+    font-size: .8rem;
+}
+
+.recent-notice-slide {
+    background-color: #ececec;
+    position: relative;
+
+}
+
+.recent-notice-slide a {
+    font-size: .8rem;
+    margin-left: 10rem;
+}
+
+span {
+    padding: 1rem;
+
+}
+
+.slider {
+    height: 500px;
+}
+
+/* header end */
+
+
+.section-first {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.about-section {
+    width: 70%;
+    padding: 2rem;
+    color: #6d6d6d;
+    height: auto;
+    height: 60%;
+}
+
+.about-section-head {
+    border-bottom: 2px solid #6d6d6d;
+}
+
+.members {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: rgb(226, 226, 226);
+}
+
+.member-cards {
+    position: relative;
+    border-width: 2px;
+    margin-bottom: 10px;
+}
+
+.member-card-container {
+    width: 90%;
+    height: fit-content;
+    margin: 1rem;
+    background-color: #ececec;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px #ccc;
+    display: flex;
+    align-items: center;
+}
+
+.member-card-container img {
+    border-radius: 15px;
+}
+
+.member-title {
+    display: flex;
+    flex-direction: column;
+    color: #6d6d6d;
+}
+
+.name {
+    font-size: 1.5rem;
+}
+
+.title {
+    font-size: 1rem;
+}
+
+.name,
+.title {
+    margin: 0 .5rem;
+    padding: 0;
+}
+
+.about-section-notice {
+    position: relative;
+    margin: 2rem 0 0;
+}
+
+.about-section-notice ul {
+    list-style-type: none;
+}
+
+.about-section-notice li {
+    line-height: 2rem;
+}
+
+/* section-first end */
+.facebook-container {
+    background-color: #ececec;
+}
+
+.facebook {
+    width: 90% auto;
+    padding: 2rem;
+    background-color: #ececec;
+}
+
+.main-footer {
+    background-color: #0789e6;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5rem;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: .8rem;
+}
+
+.footer-main-links h4,
+.footer-useful-links h4,
+.footer-contact h4 {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    line-height: 2rem;
+    font-size: 1rem;
+}
+
+.footer-contact p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: .8rem;
+}
+
+.sub-footer {
+    display: flex;
+    height: 50px;
+    font-size: .8rem;
+    justify-content: space-evenly;
+    padding: 2rem 3rem;
+    align-items: center;
+    overflow: hidden;
+    background-color: #0668ad;
+    color: #fff;
+}
+
+.sub-footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Gallery start */
+.gallery {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 100%;
+    color: #6d6d6d;
+}
+
+.gallery h3 {
+    padding: 1rem;
+}
+
+.first-gallery,
+.second-gallery {
+    width: 100%;
+    padding: 1rem;
+}
+
+.first-gallery {
+    background-color: #ececec;
+}
+
+.first-gallery-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    object-fit: cover;
+}
+
+.notice {
+    width: auto;
+    background-color: #ececec;
+    color: #6d6d6d;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.notice-link {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-self: flex-start;
+}
+
+.notice-link a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    /* For tablets: */
+    .top-header svg {
+        display: none;
+    }
+
+    .logo-bg {
+        position: relative;
+        background-color: #fff;
+        width: 100%;
+        margin-top: 3rem;
+        height: 50%;
+    }
+
+    .logo-detail {
+        padding-top: 1rem;
+        width: 100%;
+    }
+
+    .logo a img {
+        height: 80px;
+        width: 90px;
+        margin-top: .8rem;
+    }
+
+    /* .logo {
+        margin-right: 10rem;
+    } */
+
+    .flag {
+        position: absolute;
+        margin-left: 20rem;
+        z-index: 1000;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    /* For tablets: */
+    .top-header svg {
+        display: none;
+    }
+
+    .logo-bg {
+        position: absolute;
+        background-color: #fff;
+        width: 100%;
+
+        overflow: hidden;
+        top: 4%;
+    }
+
+    .logo-detail {
+        padding-top: 1rem;
+        width: 100%;
+    }
+
+    .logo a img {
+        height: 80px;
+        width: 90px;
+        margin-top: .8rem;
+    }
+}
